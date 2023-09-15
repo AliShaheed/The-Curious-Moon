@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "curious_moon"
+version = "0.1.0"
+authors = [
+    {name = "Ali Shaheed", email = "contactme@ali-fahad-shaheed.uk"},
+]
+description = "An exploration of the real data from the Cassini mission - querying the results for the possibility of life under the ice of Enceladus"
+dependencies = []
+
+[tool.setuptools.packages]
+find = {}
